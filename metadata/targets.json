@@ -2,16 +2,66 @@
  "signatures": [
   {
    "keyid": "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
-   "sig": "4d4f13ea0093d950b51dae606a17b02fb23835dceabdd0a7192f993c2fac760ca791db399d71d845ac218786a2d859096de8e679d0069e0a81283521e85e22d4b89bd8e9ba2301f044aca8c4572e5ca5fd6360a2b73dfee8b8bffc847e1ef578663b19aa820f41d60ec4231c401a2bccb6a45760cb77d80c3aa07e892546f69c962becdf96791790d4dab4e99e9e537ce95b79b646011b98b3ba6de3cdc7799ce84e2765a12d9d3a5c823a487edf4c946f20d1dcfb790c0a1a32212c71d1121538bc7c6d9f040dcce29e962c71a504bdf6e24c70e1561f7596925297cec3c6c46a5502d7c292521293ced95a60850069de42e0073d3b7b29e09a63c59e9d66e0"
+   "sig": "209bc0d8edd34513f12b2ed82a0b560dde9ca93acb517aa84e39cc899bcb31e55c5d5fb3b808d32dc92e85cd7af896391e7085cbd6556fa39d7c4c47a74035eb0b255f2ad319f79e63ae1607d45877a7c070da8f93d5548c074705a94eaa4045578843b5095485985dc88cb7f985862e93ee2ed0b81667901b8688a8b90559d3643d23a495fbf3695dd2b1d9348c4e3806cf64fcae2085aaca8a5d8f31ac50a051a106da6753d02856b8330920d559ec221afc51528474f16818be23e674e6242fc6527987090c339364c2a45d613ab0f14918e1e38f08fd6a473c55abeb88c9a7726989f45e7804804ac6ee64a2feda7ba413a1bfa98b52db6d78a48f436d67"
   }
  ],
  "signed": {
   "_type": "targets",
   "delegations": {
-   "keys": {},
-   "roles": []
+   "keys": {
+    "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1heRzGMtHO9WtduHG+ur\ntYbkLoQzr3NkNAEGALqL/JGiIhsZGlzfWVB7r9zawmW7bs5B0vB9iETgPnPao9QD\n+SVVJIscMoQfKP7hcQuXOxpHG7aUaZrLNTqyvGezCkfKZeGCVtmKZynKsZe2QUaN\nzvx9gKdiibAGvR62Co2KjKmPidssL7qxc0vLbq3cZd+xjDhdK/3i74BtfzxqFayy\nQ1pDBEMDs++Edm17cbVD4OwRMF9nod6vNPgGHC0ljBiSohs/BIAxxGTOboUtAMv5\nSnzMxeQhuKQoAJsJoi9+ea+voG/Sd9WJxvtwH85qImCLPD1XL6kfhNIdfJjFol0U\n6QIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "law",
+     "paths": [
+      "mohicanlaw/law-xml",
+      "mohicanlaw/law-html",
+      "mohicanlaw/law-xml-codified",
+      "capstone",
+      "branch"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "docs",
+     "paths": [
+      "mohicanlaw/law-docs"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "assets",
+     "paths": [
+      "mohicanlaw/law-static-assets"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
   },
-  "expires": "2021-05-26T08:33:23Z",
+  "expires": "2021-05-26T08:47:18Z",
   "spec_version": "1.0",
   "targets": {
    "mirrors.json": {
@@ -29,6 +79,6 @@
     "length": 1727
    }
   },
-  "version": 3
+  "version": 4
  }
 }
