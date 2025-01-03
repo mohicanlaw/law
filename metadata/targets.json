@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
-   "sig": "523f2d12baeeebc71ca3bd7c013df2e98ec01d355cc7c8440a7316b87f2f4fb839d64bc45902a39ce297780c52f0229310699d0616257664204ffd65b426be49c123801dff6d63fb81c1641ae94ced17d04f14e0da4fa3a6af32d8792815f2a135a0587da1ba9efd4dc44ee466d411b00deffbfe1828bbe1bf726ec95bf697b4db546091b300faf2645f223179ca90c3fd04ea874bffb734295080f345cc024921283a2f2ff4d2c30de364a341979e66cda1627057c6fbb56e8d8ec5ce031c29db1a9220c11b5f0557048e309ce06d7e1b875cfabb80ad7c2828618e1ad7f0da2c1d88aa527504798616140bbbad269d489c15146ffd31c6ea164d891c3232d7"
+   "sig": "26a1ef24bd20af95e2b4a92a58be6b6359cac95b914f98f64c4afa84dd7b563548490cd7182e57655c33022a18e78b56a1b5d399f1c9acfa980c02761d484ca767f278cbeec88c88582ca411460ddb7088a28a173b0266e6990f26e2003700ad14db6d5898b95a8517e16bf6306b24f11eb8d7ddc3447b254a91342642d5d8b10d89c65e10485682cb041c62f719277f4c262ce3ff8ca3e12aeab5ed686af7768cf7c5258112bdc1a0fd182eed5cb7cf2f587384f7e256ffd947bd9a2fbc34e03d6a5001d52e00f4ff53057ccfbf10184747faab9ad8cdd43144613dd94ae0add25993fcc30ff9d013dcc0ac2b1e0233b4b31c90ed47abcffc8d2da346f02365"
   }
  ],
  "signed": {
@@ -17,6 +17,17 @@
      "keytype": "rsa",
      "keyval": {
       "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6OyuwnpYgc3asb9sp8rR\nI+8IBFubCsnVoNooFwK0I/mHVM37PA6GOgsfvDcwYVO5hxTSzkiiPXVkXcQvQIqj\nxYM+mIvRMoMMZYGe7FG5lyKCsOkAyRVouc65aemcpL3YvfJfk6d0emv178x5Npge\nV+mHu5FTSPmxvHH2yMQms9o8TWlrDQUBn6s24s/FFTu4Z2SQbJHhJTgFpHIl50Bq\nE28NJLSG5KI5waEaA/oQTATTLGVF/nsVouZQop34CzObpPzD+r7XqrTT7IquEfDj\nwKeCE6UWrypkCo6k7hdv9ZV/oihqeSNMzsyppvfiH9tfMS+sjte43yn5YjME9ZPd\nYwIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    },
+    "782fcfbe3d7e156cb8ebef5e65b916553169634a7eff9a77fc348593310dc2bb": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqefRyV0BIZHsSdT0saa4\nqyatcIU0YeaswBAXSXPNJ3MySv7A6LxgdD4mWZRCUNwB11wynOhtRfm/CVPUGy86\nNK3V3VN4hfjul14bkErAyzPU1+vWt3BTTLCf4cP04afBfBqcAdhzpUvshZwVOTOF\nPzD2r4k/Z9GP6gDdIrJbjgHFn046IOlKZ88s7iMA6qBS2rzGYI3UGRIULp+aRxXW\nUF/m32OpJ/kRr92O52nhJKjLtJkcVrekRRATrFmhX1FMQPAA6slgXceoiPcrRmy6\n83kCKr2VJMWm2lwHfsYl8a0grCI0hnuRhkh7FBBvuWQTiAUC7wPn8Ym3sJoLkX7O\nOQIDAQAB\n-----END PUBLIC KEY-----"
      },
      "scheme": "rsa-pkcs1v15-sha256"
     },
@@ -48,7 +59,8 @@
      "keyids": [
       "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
       "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111",
-      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
+      "782fcfbe3d7e156cb8ebef5e65b916553169634a7eff9a77fc348593310dc2bb"
      ],
      "name": "law",
      "paths": [
@@ -67,7 +79,8 @@
      "keyids": [
       "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
       "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111",
-      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
+      "782fcfbe3d7e156cb8ebef5e65b916553169634a7eff9a77fc348593310dc2bb"
      ],
      "name": "docs",
      "paths": [
@@ -80,7 +93,8 @@
      "keyids": [
       "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
       "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111",
-      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
+      "782fcfbe3d7e156cb8ebef5e65b916553169634a7eff9a77fc348593310dc2bb"
      ],
      "name": "assets",
      "paths": [
@@ -92,7 +106,8 @@
     {
      "keyids": [
       "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111",
-      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68"
+      "3ee0cbbdea49d1698ee17d6eb1f6c160315800026dfc29f810e0a216fa1b7e68",
+      "782fcfbe3d7e156cb8ebef5e65b916553169634a7eff9a77fc348593310dc2bb"
      ],
      "name": "rdf",
      "paths": [
@@ -105,7 +120,7 @@
     }
    ]
   },
-  "expires": "2024-12-11T19:21:10Z",
+  "expires": "2025-04-03T14:24:21Z",
   "spec_version": "1.0.0",
   "targets": {
    "mirrors.json": {
@@ -130,6 +145,6 @@
     "length": 1447
    }
   },
-  "version": 16
+  "version": 17
  }
 }
